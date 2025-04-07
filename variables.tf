@@ -13,3 +13,8 @@ variable "project" {
 variable "ssh_key" {
   default = ""
 }
+
+variable "public_key" {
+  description = "The public key to use for SSH access"
+    type = string
+}
